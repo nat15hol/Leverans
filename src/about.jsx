@@ -2,11 +2,14 @@ import Footer from "./Footer"
 
 export default function About() {
   return (
-    <div style={{
-      minHeight: "100vh",
-      display: "flex",
-      flexDirection: "column"
-    }}>
+<div
+  style={{
+    minHeight: "100vh",
+    display: "flex",
+    flexDirection: "column",
+    overflowY: "auto"
+  }}
+>
       
 <div style={{ padding: "20px", flex: 1 }}>
   <h1>Om Leveransometer</h1>
